@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Akkurat-Mono;
+  src: local("Akkurat-Mono"),
+       local("Akkurat-Mono"),
+       url(Akkurat-Mono.ttf);
+}
+
+* {
+	font-family: "Akkurat-Mono";
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	/*transition: background-color 0.3s linear; /* vendorless fallback */
+	-o-transition: background-color  0.3s linear; /* opera */
+	-ms-transition: background-color  0.3s linear; /* IE 10 */
+	-moz-transition: background-color  0.3s linear; /* Firefox */
+	-webkit-transition: background-color  0.3s linear; /*safari and chrome */*/
+}
+
+a:hover {
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+p {
+	padding: 0px;
+	margin-top: 10px;
+}
+
+#options {
+	display: none;
+}
+
+#my-name {
+	margin: 50px 0px 0px 50px
+}
+
+#options {
+	margin: 50px 0px 0px 100px
+}
+
+.more-links {
+	padding-top: 10px;
+}
