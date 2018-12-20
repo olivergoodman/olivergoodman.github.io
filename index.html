@@ -5,35 +5,52 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript">
 		function showLinks() {
-		  var x = document.getElementById("options");
-		  if (x.style.display === "none" || x.style.display === "") {
-		    x.style.display = "block";
-		  } else {
-		    x.style.display = "none";
-		  }
+			var x = document.getElementsByClassName("bio");
+			for (var i=0; i<x.length; i++){
+				if (x[i].style.color === "transparent" || x[i].style.color === "") {
+				  x[i].style.color = "black";
+				} else {
+				  x[i].style.color = "transparent";
+				}
+			}
 		}
 	</script>
+	
 </head>
 <body>
 	<div id="my-name">
-		<a onclick="showLinks()">Oliver Goodman</a>
-		<p>San Francisco, CA</p>
+			<p>
+				<a onclick="showLinks()">Oliver Goodman</a>
+				<span class="bio">was born and raised in</span>	
+				<span> San Francisco, CA</span>
+				<span class="bio">. He studied computer science and film & media studies at Northwestern University. When he is not walking his bloodhound, he can be found losing in online chess, or watching too many movies.</span>	
+			</p>
+		
+		<div class="bio">
+			
+		</div>
 	</div>
 
-	<div id="options">
-		<div class="more-links">
-			<a href="Oliver_Goodman_Resume.pdf" target="_blank">Resume</a>
+	<div>
+		<div id="menu">
+			<div class="more-links">
+				<a href="Oliver_Goodman_Resume.pdf" target="_blank">Resume</a>
+			</div>
+			<div class="more-links">
+				<a href="https://github.com/olivergoodman" target="_blank">Github</a>
+			</div>
+			<div class="more-links">
+				<a href="https://www.linkedin.com/in/oliverbgoodman/" target="_blank">LinkedIn</a>
+			</div>
+			<div class="more-links">
+				<a href="https://letterboxd.com/ollygreatman/" target="_blank">Letterboxd</a>
+			</div>
 		</div>
-		<div class="more-links">
-			<a href="https://github.com/olivergoodman" target="_blank">Github</a>
-		</div>
-		<div class="more-links">
-			<a href="https://www.linkedin.com/in/oliverbgoodman/" target="_blank">LinkedIn</a>
-		</div>
-		<div class="more-links">
-			<a href="https://letterboxd.com/ollygreatman/" target="_blank">Letterboxd</a>
-		</div>
+
+		
 	</div>
+
+	
 
 	
 </body>
