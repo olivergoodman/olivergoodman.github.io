@@ -3,23 +3,11 @@
 <head>
 	<title>Oliver Goodman</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript">
-		function showLinks() {
-			var x = document.getElementsByClassName("bio-info");
-			for (var i=0; i<x.length; i++){
-				if (x[i].style.color === "transparent" || x[i].style.color === "") {
-				  x[i].style.color = "black";
-				} else {
-				  x[i].style.color = "transparent";
-				}
-			}
-		}
-	</script>
 	
 </head>
 <body>
 	<div id="bio">
-		<a onclick="showLinks()" id="my-name">Oliver Goodman</a>
+		<a id="my-name">Oliver Goodman</a>
 		<span class="bio-info">was born and raised in</span>	
 		<span> San Francisco, CA</span><span class="bio-info">. He studied Computer Science and Film & Media Studies at Northwestern University. When he is not walking his bloodhound, he can be found losing in online chess, taking photos, or watching too many <a class="bio-link" href="https://letterboxd.com/ollygreatman/" target="_blank">movies</a>.</span>	
 	</div>
@@ -41,8 +29,20 @@
 		</ul>
 	</div>
 
-	
+	<script type="text/javascript">
+		var tog = document.getElementById("my-name");
+		tog.addEventListener("click", function() {
+			var x = document.getElementsByClassName("bio-info");
+			for (var i=0; i<x.length; i++){
+				el = x[i];
+				// console.log(el.style.visibility.length)
+				el.classList.toggle("m-fadeOut");
+				el.classList.toggle("m-fadeIn");
+					
+			}});
+	</script>
 
 	
 </body>
+
 </html>

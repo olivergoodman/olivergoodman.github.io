@@ -63,16 +63,20 @@ p {
 }
 
 .bio-info {
-	color: transparent;
-	-webkit-transition: color .3s ease-out;
-	-moz-transition: color .3s ease-out;
-	-o-transition: color .3s ease-out;
-	transition: color .3s ease-out;
-	-webkit-transition: color .3s ease-in;
-	-moz-transition: color .3s ease-in;
-	-o-transition: color .3s ease-in;
-	transition: color .3s ease-in;
+	opacity: 0;
+	visibility: hidden;
 }
+.m-fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 00ms, opacity 300ms;
+}
+.m-fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+
 
 .bio-link{
 	color: inherit;
