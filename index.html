@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript">
 		function showLinks() {
-			var x = document.getElementsByClassName("bio");
+			var x = document.getElementsByClassName("bio-info");
 			for (var i=0; i<x.length; i++){
 				if (x[i].style.color === "transparent" || x[i].style.color === "") {
 				  x[i].style.color = "black";
@@ -18,36 +18,27 @@
 	
 </head>
 <body>
-	<div id="my-name">
-			<p>
-				<a onclick="showLinks()">Oliver Goodman</a>
-				<span class="bio">was born and raised in</span>	
-				<span> San Francisco, CA</span>
-				<span class="bio">. He studied computer science and film & media studies at Northwestern University. When he is not walking his bloodhound, he can be found losing in online chess, or watching too many movies.</span>	
-			</p>
-		
-		<div class="bio">
-			
-		</div>
+	<div id="bio">
+		<a onclick="showLinks()" id="my-name">Oliver Goodman</a>
+		<span class="bio-info">was born and raised in</span>	
+		<span> San Francisco, CA</span><span class="bio-info">. He studied Computer Science and Film & Media Studies at Northwestern University. When he is not walking his bloodhound, he can be found losing in online chess, taking photos, or watching too many <a class="bio-link" href="https://letterboxd.com/ollygreatman/" target="_blank">movies</a>.</span>	
 	</div>
 
 	<div>
-		<div id="menu">
-			<div class="more-links">
-				<a href="Oliver_Goodman_Resume.pdf" target="_blank">Resume</a>
-			</div>
-			<div class="more-links">
-				<a href="https://github.com/olivergoodman" target="_blank">Github</a>
-			</div>
-			<div class="more-links">
+		<ul id="menu">
+			<li>
 				<a href="https://www.linkedin.com/in/oliverbgoodman/" target="_blank">LinkedIn</a>
-			</div>
-			<div class="more-links">
-				<a href="https://letterboxd.com/ollygreatman/" target="_blank">Letterboxd</a>
-			</div>
-		</div>
-
-		
+			</li>
+			<li>
+				<a href="https://github.com/olivergoodman" target="_blank">Github</a>
+			</li>
+			<li>
+				<a href="mailto:oliverbgoodman@gmail.com" target="_blank">Email</a>
+			</li>
+			<li>
+				<a href="Oliver_Goodman_Resume.pdf" target="_blank">CV</a>
+			</li>
+		</ul>
 	</div>
 
 	
