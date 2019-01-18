@@ -24,10 +24,10 @@
 	<div ng-app="myApp" ng-controller="myCtrl">
 		<div id="bio" ng-init="showBio=false">
 			<div class="text-center">
-				<a id="my-name" ng-click="showBio=!showBio;">{{myName}}</a> <span class="fade-in kabel" ng-show="showBio"> was born and raised in</span><span> San Francisco, CA.</span>
+				<a id="my-name" ng-click="showBio=!showBio;">{{myName}}</a> <span class="fade-in kabel" ng-show="showBio"> was born and raised in</span><span> San Francisco, CA</span><span class="fade-in kabel" ng-show="showBio">.</span>
 			</div>
 			
-			<span class="fade-in kabel" ng-show="showBio">He studied Computer Science and Film & Media Studies at Northwestern University. When he is not walking his bloodhound, he can be found losing in online chess, taking photos, or watching too many <a class="bio-link kabel" ng-href="{{clickHiddenLink(letterboxd)}}" target="_blank">{{letterboxd.text}}</a>.</span>
+			<span id="bio-text" class="fade-in kabel" ng-show="showBio">He studied Computer Science and Film & Media Studies at Northwestern University. When he is not walking his bloodhound, he can be found losing in online chess, taking photos, or watching too many <a class="bio-link kabel" ng-href="{{clickHiddenLink(letterboxd)}}" target="_blank">{{letterboxd.text}}</a>.</span>
 			</span>
 
 		</div>

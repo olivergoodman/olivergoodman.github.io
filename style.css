@@ -68,6 +68,11 @@ p {
 	border-bottom: 1px solid;
 }
 
+#bio-text {
+	padding: 00px 100px 10px 100px;
+	text-align: justify;
+}
+
 .fade-in {
     transition: all linear 300ms;
     opacity: 1;
