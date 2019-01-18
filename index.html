@@ -2,34 +2,38 @@
 <html>
 <head>
 	<title>Oliver Goodman</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular-animate.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="shortcut icon" href="o.png" type="image/x-icon">
+
 </head>
 <body>
-	<div id="bio">
-		<a id="my-name">Oliver Goodman</a>
-		<span class="bio-info">was born and raised in</span>	
-		<span> San Francisco, CA</span><span class="bio-info">. He studied Computer Science and Film & Media Studies at Northwestern University. When he is not walking his bloodhound, he can be found losing in online chess, taking photos, or watching too many <a class="bio-link" href="https://letterboxd.com/ollygreatman/" target="_blank">movies</a>.</span>	
-	</div>
+	<div ng-app="myApp" ng-controller="myCtrl" class="">
+		<div id="bio" ng-init="showBio=false">
+			<a id="my-name" ng-click="showBio=!showBio;">{{myName}}</a>
+			<span class="fade kabel" ng-show="showBio">was born and raised in</span><span> San Francisco, CA.</span><span class="fade kabel" ng-show="showBio">He studied Computer Science and Film & Media Studies at Northwestern University. When he is not walking his bloodhound, he can be found losing in online chess, taking photos, or watching too many <a class="bio-link kabel" ng-href="{{clickHiddenLink(letterboxd)}}" target="_blank">{{letterboxd.text}}</a>.</span>
+			</span>
 
-	<div>
-		<ul id="menu">
-			<li>
-				<a href="https://www.linkedin.com/in/oliverbgoodman/" target="_blank">LinkedIn</a>
-			</li>
-			<li>
-				<a href="https://github.com/olivergoodman" target="_blank">Github</a>
-			</li>
-			<li>
-				<a href="mailto:oliverbgoodman@gmail.com" target="_blank">Email</a>
-			</li>
-			<li>
-				<a href="Oliver_Goodman_Resume.pdf" target="_blank">CV</a>
-			</li>
-		</ul>
-	</div>
+		</div>
 
-	<script type="text/javascript">
+		<div>
+			<ul id="menu">
+				<li ng-repeat="link in myLinks">
+					<a href="{{link.url}}"" target="_blank">{{link.text}}</a>
+				</li>
+			</ul>
+		</div>	
+
+		<!-- <button ng-init="qty=true" ng-click="qty = !qty">switch</button>
+		<div class="fade" ng-show="qty">
+		  Content
+		</div> -->
+	</div>
+	
+	<!-- <script type="text/javascript">
 		var tog = document.getElementById("my-name");
 		tog.addEventListener("click", function() {
 			var x = document.getElementsByClassName("bio-info");
@@ -40,7 +44,7 @@
 				el.classList.toggle("m-fadeIn");
 					
 			}});
-	</script>
+	</script> -->
 
 	
 </body>

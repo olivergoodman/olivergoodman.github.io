@@ -2,26 +2,35 @@
   font-family: Akkurat-Mono;
   src: local("Akkurat-Mono"),
        local("Akkurat-Mono"),
-       url(Akkurat-Mono.ttf);
+       url(fonts/Akkurat-Mono.ttf);
 }
 
 @font-face {
 	font-family: Huxley-Vert;
-	src: local("HuxleyVerticalBT-Regular.otf"),
+	src: local("fonts/HuxleyVerticalBT-Regular.otf"),
 		local("Huxley-Vert"),
-		url(HuxleyVerticalBT-Regular.otf);
+		url(fonts/HuxleyVerticalBT-Regular.otf);
 }
+
+@font-face {
+	font-family: Kabel-Light;
+	src: local("fonts/Kabel-Light.ttf"),
+		local("Kabel-Light"),
+		url(fonts/Kabel-Light.ttf);
+}
+
 
 * {
 	font-family: "Huxley-Vert";
 	line-height: 2;
-	font-size: 40px;
-	letter-spacing: 2px;
+	font-size: 35px;
+	letter-spacing: 5px;
 	margin: 0px;
 }
 
 
 a {
+	cursor: default;
 	text-decoration: none;
 	color: black;
 	border-bottom: 1px solid;
@@ -33,8 +42,8 @@ a {
 
 a:hover {
 	color: white;
+	cursor: default;
 	background-color: black;
-	cursor: pointer;
 }
 
 p {
@@ -62,10 +71,8 @@ p {
 	border-bottom: 1px solid;
 }
 
-.bio-info {
-	opacity: 0;
-	visibility: hidden;
-}
+
+/*.bio-info {
 .m-fadeOut {
   visibility: hidden;
   opacity: 0;
@@ -75,7 +82,37 @@ p {
   visibility: visible;
   opacity: 1;
   transition: visibility 0s linear 0s, opacity 500ms;
+}*/
+
+
+.fade {
+    transition: all linear 500ms;
+    opacity: 1;
+    display: inline-block!important;
 }
+
+.fade.ng-hide {
+    opacity: 0;
+    display: inline-block!important;
+}
+
+/*.fade.ng-hide {
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+.fade.ng-hide-remove,
+.fade.ng-hide-add {
+  visibility: visible;
+}
+
+.fade.ng-hide-remove {
+  transition: all linear 1000ms;
+}
+
+.fade.ng-hide-add {
+  transition: all linear 500ms;
+}*/
 
 
 .bio-link{
@@ -89,4 +126,13 @@ p {
 
 .more-links {
 	padding-top: 10px;
+}
+
+.kabel {
+	font-family: "Kabel-Light";
+	font-size: 25px;
+}
+
+.text-center {
+	text-align: center;
 }
