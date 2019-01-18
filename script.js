@@ -6,7 +6,7 @@ app.controller('myCtrl', function($scope) {
     	{text: "LinkedIn", url: "https://www.linkedin.com/in/oliverbgoodman/"},
     	{text: "Github", url: "https://github.com/olivergoodman/"},
     	{text: "Email", url: "mailto:oliverbgoodman@gmail.com"},
-    	{text: "CV", url: "Oliver_Goodman_Resume.pdf"}
+    	{text: "Resume", url: "Oliver_Goodman_Resume.pdf"}
     ];
 
     $scope.letterboxd = {text: "movies", url:"https://letterboxd.com/ollygreatman/"}
@@ -21,4 +21,6 @@ app.controller('myCtrl', function($scope) {
     	}
     }
 
-})
+    $scope.test = [1,2,3]
+
+});

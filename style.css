@@ -1,11 +1,4 @@
 @font-face {
-  font-family: Akkurat-Mono;
-  src: local("Akkurat-Mono"),
-       local("Akkurat-Mono"),
-       url(fonts/Akkurat-Mono.ttf);
-}
-
-@font-face {
 	font-family: Huxley-Vert;
 	src: local("fonts/HuxleyVerticalBT-Regular.otf"),
 		local("Huxley-Vert"),
@@ -23,8 +16,8 @@
 * {
 	font-family: "Huxley-Vert";
 	line-height: 2;
-	font-size: 35px;
-	letter-spacing: 5px;
+	font-size: 36px;
+	letter-spacing: 8px;
 	margin: 0px;
 }
 
@@ -33,17 +26,18 @@ a {
 	cursor: default;
 	text-decoration: none;
 	color: black;
-	border-bottom: 1px solid;
-	-o-transition: background-color  0.3s linear; /* opera */
-	-ms-transition: background-color  0.3s linear; /* IE 10 */
-	-moz-transition: background-color  0.3s linear; /* Firefox */
-	-webkit-transition: background-color  0.3s linear; /*safari and chrome */*/
+	/*border-bottom: 1px solid;*/
+	-o-transition: background-color  0.5s linear; /* opera */
+	-ms-transition: background-color  0.5s linear; /* IE 10 */
+	-moz-transition: background-color  0.5s linear; /* Firefox */
+	-webkit-transition: background-color  0.5s linear; /*safari and chrome */*/
 }
 
 a:hover {
 	color: white;
 	cursor: default;
 	background-color: black;
+	border-bottom: none;
 }
 
 p {
@@ -52,14 +46,17 @@ p {
 }
 
 #menu {
-	margin-top: 25px;
+	margin-top: 40px;
 	padding: 0px;
-	text-align: left;
+	text-align: center;
 	margin-left: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #menu li {
-	display: block;
+	display: inline-block;
 	padding-right: 10%;
 }
 
@@ -71,49 +68,16 @@ p {
 	border-bottom: 1px solid;
 }
 
-
-/*.bio-info {
-.m-fadeOut {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s linear 00ms, opacity 300ms;
-}
-.m-fadeIn {
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 0s linear 0s, opacity 500ms;
-}*/
-
-
-.fade {
-    transition: all linear 500ms;
+.fade-in {
+    transition: all linear 300ms;
     opacity: 1;
     display: inline-block!important;
 }
 
-.fade.ng-hide {
+.fade-in.ng-hide {
     opacity: 0;
     display: inline-block!important;
 }
-
-/*.fade.ng-hide {
-  visibility: hidden !important;
-  opacity: 0 !important;
-}
-
-.fade.ng-hide-remove,
-.fade.ng-hide-add {
-  visibility: visible;
-}
-
-.fade.ng-hide-remove {
-  transition: all linear 1000ms;
-}
-
-.fade.ng-hide-add {
-  transition: all linear 500ms;
-}*/
-
 
 .bio-link{
 	color: inherit;
@@ -121,7 +85,7 @@ p {
 }
 
 .bio-link:hover {
-	color: white;
+	color: white!important;
 }
 
 .more-links {
@@ -131,8 +95,11 @@ p {
 .kabel {
 	font-family: "Kabel-Light";
 	font-size: 25px;
+	letter-spacing: 3px;
 }
-
 .text-center {
 	text-align: center;
+}
+.parent {
+	text-align: center
 }
