@@ -11,6 +11,8 @@ app.controller('myCtrl', function($scope) {
 
     $scope.letterboxd = {text: "movies", url:"https://letterboxd.com/ollygreatman/"}
 
+    $scope.ernie = {text: "bloodhound", url:"https://www.instagram.com/ernie_the_bloodhound/"}
+
     $scope.showBio = false;
 
     $scope.clickHiddenLink = function(link) {
