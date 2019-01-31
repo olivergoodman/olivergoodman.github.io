@@ -30,7 +30,7 @@ a {
 	-o-transition: background-color  0.5s linear; /* opera */
 	-ms-transition: background-color  0.5s linear; /* IE 10 */
 	-moz-transition: background-color  0.5s linear; /* Firefox */
-	-webkit-transition: background-color  0.5s linear; /*safari and chrome */*/
+	-webkit-transition: background-color  0.5s linear; /*safari and chrome */
 }
 
 a:hover {
@@ -65,7 +65,7 @@ p {
 }
 
 #my-name {
-	border-bottom: 1px solid;
+	text-decoration: none;
 }
 
 #bio-text {
