@@ -10,7 +10,6 @@ I usually take photos with an Olympus XA, Canon FTb, or disposable camera.
 <br>
 <img src="/images/photos/6.JPG" width="100%" />
 <img src="/images/photos/2.JPG" width="100%" />
-<!-- <img src="/images/photos/1.JPG" width="50%"  /> -->
 <img src="/images/photos/4.JPG" width="100%" />
 <img src="/images/photos/5.JPG" width="100%" />
 <img src="/images/photos/7.JPG" width="100%" />
@@ -27,4 +26,4 @@ I usually take photos with an Olympus XA, Canon FTb, or disposable camera.
 <img src="/images/photos/18.JPG" width="100%" />
 <img src="/images/photos/19.JPG" width="100%" />
 <img src="/images/photos/20.JPG" width="100%" />
-
+<!-- <img src="/images/photos/1.JPG" width="50%"  /> -->
