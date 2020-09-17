@@ -1,0 +1,22 @@
+title: 'olivergoodman.github.io'
+description: "Oliver Goodman"
+url: "https://olivergoodman.github.io"
+
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - photos.md
+
+style: light 
+
+footer: '<a href="https://github.com/olivergoodman/" target="_blank" style="margin-left:10px;">github</a> 
+        <a href="https://linkedin.com/in/oliverbgoodman/" target="_blank" style="margin-left:10px;">linkedin</a>
+        <a href="https://letterboxd.com/ollygreatman/" target="_blank" style="margin-left:10px;">letterboxd</a>
+        <a href="resume.pdf" target="_blank" style="margin-left:10px;">resume</a>'
+
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console
+
+theme: jekyll-theme-console

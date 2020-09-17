@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Peru"
+categories:
+---
+
+<img src="/images/image1.jpg" alt="01" width="100%" />
