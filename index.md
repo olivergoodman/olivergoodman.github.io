@@ -5,6 +5,6 @@ permalink: /
 ---
 
 
-<img src="/images/image1.JPG" alt="01" width="100%" />
+<img src="/images/image1.jpg" alt="01" width="100%" />
 
 
