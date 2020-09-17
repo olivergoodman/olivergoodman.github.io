@@ -85,7 +85,7 @@ p {
 
 footer {
   color: var(--text-color);
-  margin: 20px auto 15px;
+  margin: 0px 15px 0px 15px;
   padding-top: 40px;
   text-align: right; }
 
@@ -140,7 +140,7 @@ footer {
 
 .menu ul li {
   display: inline;
-  margin-left: 10px; }
+  margin-left: 15px; }
 
 .menu ul li a {
   text-decoration: none;
