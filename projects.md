@@ -19,4 +19,4 @@ My team built a working prototype to explore how IOT can be used for inventory t
 
 # Building a mechanical keyboard
 I built my first mechanical keyboard during quarantine. It used a 60% Tofu aluminum case, a DZ60RGB v2 PCB, 62g Zilent switches, HK 9009 key caps. 
-<img src="/images/kb.jpg" alt="01" width="100%" />
+<img src="/images/kb.JPG" alt="01" width="100%" />
