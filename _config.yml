@@ -20,3 +20,12 @@ markdown: kramdown
 remote_theme: b2a3e8/jekyll-theme-console
 
 theme: jekyll-theme-console
+
+
+#collections
+safe: false
+
+collections:
+  albums:
+    output: true
+    permalink: /photography/:path/

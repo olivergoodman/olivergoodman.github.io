@@ -5,6 +5,4 @@ permalink: /
 ---
 
 
-<img src="/images/image1.jpg" alt="01" width="100%" />
-
-
+<img src="/assets/images/image1.jpg" alt="01" width="100%" />
