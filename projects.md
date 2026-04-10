@@ -3,7 +3,7 @@ title: projects
 layout: page
 permalink: /projects
 ---
-# [Department of Veterans Affairs](https://www.medicare.gov/plan-compare){:target="_blank"}
+# [Department of Veterans Affairs](https://va.gov){:target="_blank"}
 I currently lead data strategy and research projects improving health and benefit services for Veterans, and processes for VA staff. 
 
 
