@@ -11,7 +11,10 @@ $base-font-size:       15px !default;
 $mobile-font-size:     12px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
-$container-max-width:  600px !default;
+$container-max-width:  650px !default;
+$brand-colors: #fafddf, #fcf4dd, #edf9f5, #fffbe0;
+
+
 
 /**
  * Global
@@ -133,3 +136,48 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+
+/**
+* Set theme custom colors
+*/
+
+
+
+@mixin theme() {
+:root {
+--base-color: #000;
+--border: dashed 1px rgba(0, 0, 0, 1);
+--selection-background: rgba(0, 0, 0, 0.99);
+--selection-text: #FFF;
+// --background-color: rgb(random(255), random(255), random(255));
+--text-color: var(--base-color);
+--placeholder-color: var(--base-color);
+--link-color: var(--base-color);
+--code-color-1: #aaaaaa;
+--code-color-2: #ffffcc;
+--code-color-3: #F00000;
+--code-color-4: #F0A0A0;
+--code-color-5: #0000aa;
+--code-color-6: #4c8317;
+--code-color-7: #aa0000;
+--code-color-8: #000080;
+--code-color-9: #00aa00;
+--code-color-10: #888888;
+--code-color-11: #555555;
+--code-color-12: #800080;
+--code-color-13: #00aaaa;
+--code-color-14: #009999;
+--code-color-15: #aa5500;
+--code-color-16: #1e90ff;
+--code-color-17: #800000;
+--code-color-18: #bbbbbb;
+
+}
+}
+
+body {
+  // Picks a random color from the $brand-colors list
+  background-color: nth($brand-colors, random(length($brand-colors)));
+}
+

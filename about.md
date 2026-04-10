@@ -4,7 +4,7 @@ title: about
 permalink: /about
 ---
 
-Living in Brooklyn, NY, born and raised in San Francisco, CA.
+Living in Brooklyn, NY. Born and raised in San Francisco, CA.
 
 <br>Current and past titles include:
 <ul>

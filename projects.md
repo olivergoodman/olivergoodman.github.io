@@ -4,7 +4,7 @@ layout: page
 permalink: /projects
 ---
 # [Department of Veterans Affairs](https://www.medicare.gov/plan-compare){:target="_blank"}
-I currently lead data strategy and research projects improving services for Vetearns and VA staff. 
+I currently lead data strategy and research projects improving health and benefit services for Veterans, and processes for VA staff. 
 
 
 # [Medicare.gov](https://www.medicare.gov/plan-compare){:target="_blank"}
@@ -31,10 +31,10 @@ Used machine learning to classify the musical genre of a given audio file.
 Built a working prototype to explore how IOT can be used for inventory tracking and management.
 
 
-# [This website](https://olivergoodman.github.io/){:target="_blank"}
+# [This website](https://github.com/olivergoodman/olivergoodman.github.io/){:target="_blank"}
 Built with Jekyll, deployed on GitHub Pages.
 
 
 # Building a mechanical keyboard
-I built my first mechanical keyboard during quarantine. It used a 60% Tofu aluminum case, a DZ60RGB v2 PCB, 62g Zilent switches, HK 9009 key caps. 
+I built a custom mechanical keyboard a while back. It used a 60% Tofu aluminum case, a DZ60RGB v2 PCB, 62g Zilent switches, HK 9009 key caps. 
 <img src="/assets/images/kb.JPG" alt="01" width="100%" />

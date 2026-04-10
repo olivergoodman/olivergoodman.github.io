@@ -5,13 +5,13 @@ layout: page
 permalink: /photography
 ---
 
-Photos taken with Olympus OM2n, Olympus XA, Canon FTb, or disposable.  
-
 {% for album in site.albums %}
   <h2><a href="{{ album.url }}">{{ album.name }}</a></h2>
 {% endfor %}
 
+<br>
 
+Photos taken with Olympus OM-2n, Olympus XA, Canon FTb, or disposable.  
 
 <!-- <br>
 <img src="/images/photos/6.JPG" width="100%" />
