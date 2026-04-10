@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  
+  <!-- random color -->
+  <script>
+  window.onload = function() {
+    // Array of colors to cycle through
+    const colors = ["#fafddf", "#fcf4dd", "#edf9f5", "#fffbe0"];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = randomColor;
+  };
+</script>
+
+
   <head profile="http://www.w3.org/2005/10/profile">
   <link rel="icon" 
         type="image/png" 

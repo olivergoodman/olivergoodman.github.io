@@ -176,8 +176,4 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 }
 }
 
-body {
-  // Picks a random color from the $brand-colors list
-  background-color: nth($brand-colors, random(length($brand-colors)));
-}
 
