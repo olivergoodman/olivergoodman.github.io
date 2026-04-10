@@ -4,9 +4,17 @@ title: about
 permalink: /about
 ---
 
-I was born and raised in San Francisco, CA. I've also lived in Evanston, IL, Washington DC, and New York City. 
+Living in Brooklyn, NY, born and raised in San Francisco, CA.
 
-<br>Some of my titles have been product manager, software developer, film festival coordinator, clothing warehouse boxer, marine mammal care giver, and amateur radio DJ-er.
+<br>Current and past titles include:
+<ul>
+  <li>product manager</li>
+  <li>software developer</li>
+  <li>film festival coordinator</li>
+  <li>clothing warehouse boxer</li>
+  <li>marine mammal care giver</li>
+  <li>amateur radio DJ-er</li>
+</ul>
 
 
 <br>Feel free to email me: oliverbgoodman [at] gmail.com

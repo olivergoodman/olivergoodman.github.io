@@ -5,7 +5,7 @@ layout: page
 permalink: /photography
 ---
 
-I usually take photos with an Olympus XA, Canon FTb, or disposable camera.  
+Photos taken with Olympus OM2n, Olympus XA, Canon FTb, or disposable.  
 
 {% for album in site.albums %}
   <h2><a href="{{ album.url }}">{{ album.name }}</a></h2>
