@@ -3,24 +3,24 @@ title: projects
 layout: page
 permalink: /projects
 ---
-# [Department of Veterans Affairs](https://va.gov){:target="_blank"}
-I currently lead data strategy and research projects improving health and benefit services for Veterans, and processes for VA staff. 
+# [Department of Veterans Affairs](/projects/va) 
+Leading data strategy and research to improve VA health and benefit services for Veterans.
 
 
-# [Medicare.gov](https://www.medicare.gov/plan-compare){:target="_blank"}
-I led user-facing development of Medicare.gov plan coverage and cost comparison tools for millions of Medicare beneficiaries.
+# [Medicare.gov](/projects/medicare)
+Building Medicare.gov plan coverage / cost comparison tools for millions of Medicare beneficiaries.
 
 
-# [HealthCare.gov](https://www.healthcare.gov){:target="_blank"}
-As a product manager, I oversaw the authentication system powering HealthCare.gov for millions of Americans enrolling in health coverage.  
+# [HealthCare.gov](/projects/healthcare)
+Managing HealthCare.gov's authentication system for public enrollment in health coverage.  
 
 
-# [Empatico](https://empatico.buildersmovement.org/){:target="_blank"}
+# [Empatico](/projects/empatico)
 I worked as a product manager on an ed-tech platform connecting teachers and students from around the world through online, empathy-bulding virtual exchanges. 
 
 
 # [Word coocurrence of political figures](https://word-cooccurrence.herokuapp.com/){:target="_blank"}
-As a research assistant at the [Collab Lab](https://collablab.northwestern.edu/){:target="_blank"} at Northwestern University, I used natural language processing to examine how word coocurrence can be used to examine the language of political speeches. 
+As a research assistant at the [CollabLab](https://collablab.northwestern.edu/){:target="_blank"} at Northwestern University, I used natural language processing to examine how word coocurrence can be used to examine the language of political speeches. 
 
 
 # [Analyzing the effects of source separation on genre classification](https://genre-classification.herokuapp.com/index.html)
@@ -37,4 +37,4 @@ Built with Jekyll, deployed on GitHub Pages.
 
 # Building a mechanical keyboard
 I built a custom mechanical keyboard a while back. It used a 60% Tofu aluminum case, a DZ60RGB v2 PCB, 62g Zilent switches, HK 9009 key caps. 
-<img src="/assets/images/kb.JPG" alt="01" width="100%" />
+<img src="/assets/images/kb.JPG" alt="03" class="bottom-img" />

@@ -143,7 +143,6 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 */
 
 
-
 @mixin theme() {
 :root {
 --base-color: #000;
@@ -177,3 +176,14 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 }
 
 
+.bottom-img {
+display: block;
+margin: auto;
+width: 40%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
