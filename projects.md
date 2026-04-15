@@ -19,11 +19,11 @@ Managing HealthCare.gov's authentication system for public enrollment in health 
 I worked as a product manager on an ed-tech platform connecting teachers and students from around the world through online, empathy-bulding virtual exchanges. 
 
 
-# [Word coocurrence of political figures](https://word-cooccurrence.herokuapp.com/){:target="_blank"}
+# [Word coocurrence of political figures](https://github.com/olivergoodman/cooccurrence-app/){:target="_blank"}
 As a research assistant at the [CollabLab](https://collablab.northwestern.edu/){:target="_blank"} at Northwestern University, I used natural language processing to examine how word coocurrence can be used to examine the language of political speeches. 
 
 
-# [Analyzing the effects of source separation on genre classification](https://genre-classification.herokuapp.com/index.html)
+# [Analyzing the effects of source separation on genre classification](https://github.com/olivergoodman/genre-classification)
 Used machine learning to classify the musical genre of a given audio file. 
 
 
