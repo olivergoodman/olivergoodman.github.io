@@ -23,7 +23,7 @@ I worked as a product manager on an ed-tech platform connecting teachers and stu
 As a research assistant at the [CollabLab](https://collablab.northwestern.edu/){:target="_blank"} at Northwestern University, I used natural language processing to examine how word coocurrence can be used to examine the language of political speeches. 
 
 
-# [Analyzing the effects of source separation on genre classification](https://github.com/olivergoodman/genre-classification)
+# [Analyzing the effects of source separation on genre classification](https://github.com/olivergoodman/genre-classification){:target="_blank"}
 Used machine learning to classify the musical genre of a given audio file. 
 
 
